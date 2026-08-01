@@ -204,29 +204,6 @@ security-risk-score/
 
 ---
 
-## Strengths
-
-- End-to-end machine learning pipeline
-- Continuous risk scoring instead of binary classification
-- Behavioral feature engineering for financial audit logs
-- Explainable AI for transparent decision-making
-- Incremental learning for continuous adaptation
-- Modular and extensible architecture
-- Interactive dashboard for monitoring high-risk activities
-
----
-
-## Current Limitations
-
-- Uses synthetic audit logs rather than production enterprise logs.
-- Risk labels are generated using predefined rules and public fraud datasets.
-- Online learning is demonstrated through simulated data batches rather than real-time streaming.
-- Device and IP context remain relatively simple compared to enterprise-grade monitoring systems.
-- The offline (Random Forest) and online (SGDClassifier) models operate independently rather than as a unified adaptive framework.
-- Additional contextual features such as geolocation, user roles, historical behavior profiles, and network activity are not yet incorporated.
-
----
-
 ## Future Improvements
 
 Future development may include:
