@@ -7,7 +7,7 @@
 
 ## Overview
 
-**Security Risk Score** is a machine learning-based framework that analyzes financial audit logs and assigns a **dynamic security risk score** to every audit event. Rather than producing a simple binary fraud prediction, the framework estimates a continuous probability of risk, enabling auditors and security analysts to prioritize investigations based on the severity of suspicious activities.
+**Security Risk Score** is a machine learning-based framework that analyzes financial audit logs and assigns a **dynamic security risk score** to every audit event. Rather than just producing a simple binary fraud prediction, the framework estimates a continuous probability of risk, enabling auditors and security analysts to prioritize investigations based on the severity of suspicious activities.
 
 The project integrates traditional fraud detection with behavioral analytics, contextual audit information, explainable AI, and incremental learning to demonstrate how AI can support intelligent financial auditing and continuous security monitoring.
 
